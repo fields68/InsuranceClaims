@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "InsuranceClaim.UI/1.0.0": {
+        "dependencies": {
+          "InsuranceClaim.Data": "1.0.0",
+          "InsuranceClaim.Repository": "1.0.0"
+        },
+        "runtime": {
+          "InsuranceClaim.UI.dll": {}
+        }
+      },
+      "InsuranceClaim.Data/1.0.0": {
+        "runtime": {
+          "InsuranceClaim.Data.dll": {}
+        }
+      },
+      "InsuranceClaim.Repository/1.0.0": {
+        "dependencies": {
+          "InsuranceClaim.Data": "1.0.0"
+        },
+        "runtime": {
+          "InsuranceClaim.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InsuranceClaim.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InsuranceClaim.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InsuranceClaim.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

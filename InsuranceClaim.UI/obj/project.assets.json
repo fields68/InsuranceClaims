@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "InsuranceClaim.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/InsuranceClaim.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsuranceClaim.Data.dll": {}
+        }
+      },
+      "InsuranceClaim.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "InsuranceClaim.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InsuranceClaim.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsuranceClaim.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InsuranceClaim.Data/1.0.0": {
+      "type": "project",
+      "path": "../InsuranceClaim.Data/InsuranceClaim.Data.csproj",
+      "msbuildProject": "../InsuranceClaim.Data/InsuranceClaim.Data.csproj"
+    },
+    "InsuranceClaim.Repository/1.0.0": {
+      "type": "project",
+      "path": "../InsuranceClaim.Repository/InsuranceClaim.Repository.csproj",
+      "msbuildProject": "../InsuranceClaim.Repository/InsuranceClaim.Repository.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "InsuranceClaim.Data >= 1.0.0",
+      "InsuranceClaim.Repository >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\clarf\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\ElevenFiftyProjects\\RepoConsoleApp_Queue\\InsuranceClaim.UI\\InsuranceClaim.UI.csproj",
+      "projectName": "InsuranceClaim.UI",
+      "projectPath": "C:\\ElevenFiftyProjects\\RepoConsoleApp_Queue\\InsuranceClaim.UI\\InsuranceClaim.UI.csproj",
+      "packagesPath": "C:\\Users\\clarf\\.nuget\\packages\\",
+      "outputPath": "C:\\ElevenFiftyProjects\\RepoConsoleApp_Queue\\InsuranceClaim.UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\clarf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\ElevenFiftyProjects\\RepoConsoleApp_Queue\\InsuranceClaim.Data\\InsuranceClaim.Data.csproj": {
+              "projectPath": "C:\\ElevenFiftyProjects\\RepoConsoleApp_Queue\\InsuranceClaim.Data\\InsuranceClaim.Data.csproj"
+            },
+            "C:\\ElevenFiftyProjects\\RepoConsoleApp_Queue\\InsuranceClaim.Repository\\InsuranceClaim.Repository.csproj": {
+              "projectPath": "C:\\ElevenFiftyProjects\\RepoConsoleApp_Queue\\InsuranceClaim.Repository\\InsuranceClaim.Repository.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

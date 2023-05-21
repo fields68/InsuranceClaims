@@ -1,0 +1,12 @@
+C:\ElevenFiftyProjects\RepoConsoleApp_Queue\InsuranceClaim.Data\bin\Debug\net7.0\InsuranceClaim.Data.deps.json
+C:\ElevenFiftyProjects\RepoConsoleApp_Queue\InsuranceClaim.Data\bin\Debug\net7.0\InsuranceClaim.Data.dll
+C:\ElevenFiftyProjects\RepoConsoleApp_Queue\InsuranceClaim.Data\bin\Debug\net7.0\InsuranceClaim.Data.pdb
+C:\ElevenFiftyProjects\RepoConsoleApp_Queue\InsuranceClaim.Data\obj\Debug\net7.0\InsuranceClaim.Data.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\RepoConsoleApp_Queue\InsuranceClaim.Data\obj\Debug\net7.0\InsuranceClaim.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyProjects\RepoConsoleApp_Queue\InsuranceClaim.Data\obj\Debug\net7.0\InsuranceClaim.Data.AssemblyInfoInputs.cache
+C:\ElevenFiftyProjects\RepoConsoleApp_Queue\InsuranceClaim.Data\obj\Debug\net7.0\InsuranceClaim.Data.AssemblyInfo.cs
+C:\ElevenFiftyProjects\RepoConsoleApp_Queue\InsuranceClaim.Data\obj\Debug\net7.0\InsuranceClaim.Data.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\RepoConsoleApp_Queue\InsuranceClaim.Data\obj\Debug\net7.0\InsuranceClaim.Data.dll
+C:\ElevenFiftyProjects\RepoConsoleApp_Queue\InsuranceClaim.Data\obj\Debug\net7.0\refint\InsuranceClaim.Data.dll
+C:\ElevenFiftyProjects\RepoConsoleApp_Queue\InsuranceClaim.Data\obj\Debug\net7.0\InsuranceClaim.Data.pdb
+C:\ElevenFiftyProjects\RepoConsoleApp_Queue\InsuranceClaim.Data\obj\Debug\net7.0\ref\InsuranceClaim.Data.dll
